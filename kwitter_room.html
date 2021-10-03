@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="kwitter_room.css">
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Let's Chat</title>
+    </head>
+    <body onload="welcome()">
+         <div class="container">
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+         </div>
+        <center>
+        <h3 id="username" style="color:blue;font-weight:bold;margin-top:20px;margin-bottom:20px;"></h3>
+        <input type="text" id="room_name" class="form-control" placeholder="Room name here">
+        <br/>
+        <button type="submit" id="addroom" onclick="addRoom()" class="btn btn-success" style="font-weight:bold">Add room</button>
+        <br/>
+        <br/>
+        <h2 style="color:red; font-weight:bold;">#TRENDING ROOMS</h2>
+        <div id="output"></div>
+        </center>
+        <script src="kwitter_room.js"></script>
+    </body>
+</html>

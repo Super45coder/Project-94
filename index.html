@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="kwitter.css">
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Let's Chat</title>
+    </head>
+    <body>
+        <center>
+            <h1 class="header text-info" style="font-weight:bold;">
+                <sup>Let's Chat</sup>
+            </h1>
+         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU1anvlXP3A9K_z4nOpvmAo0UvB2RhZtQM9Q&usqp=CAU" style="border-radius:50px; height:100px; width:100px;">
+           <h5>Contact your school friends, hang out, work on projects, and do lots more with this app!</h5>
+           <label>Username:</label>
+           <input type="text" class="form-control" placeholder="Username here" id="username">
+           <br/>
+           <button type="submit" id="username_button" onclick="addUser()" class="btn btn-primary">Log in</button>
+           <br/>
+           <br/>
+        </div>
+        </center>
+        <script src="kwitter.js"></script>
+    </body>
+</html>

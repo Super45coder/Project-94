@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/mobile-apps-pattern-white-background-50171276.jpg");
+}
+
+#logout
+{
+	font-size: 20px; 
+    float: right;
+}
+
+#room{
+    margin-top:20px;
+    margin-left:20px;
+    width:750px;
+}
+
+#output{
+    background-color:rgb(1, 1, 255, 1);
+    padding:10px;
+    width:80%;
+    border-radius:25px;
+}
